@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+display: flex;
+
+background: #5cbaff;
+
+margin: auto;
+
+height: 80px;
+
+align-items: center;
+
+border-bottom: 1px solid #5b9fd0;
+}
+header ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+width: 45%;
+
+align-items: center;
+
+margin: auto;
+}
+header ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-family: sans-serif;
+
+text-transform: uppercase;
+
+font-size: 13px;
+}
+header ul li .images{
+    
+width: 95%;
+    
+margin: auto;
+    
+padding-top: 4px;
+}
+header ul li .images img{
+    
+width: 100%;
+}
+.features_section{
+
+min-height: 93vh;
+
+/* background: #0093FF; */
+
+display: flex;
+
+/* align-items: center; */
+
+/* justify-content: space-around; */
+}
+.banner{
+
+width: 37%;
+
+background: #5cbaff;
+
+/* height: 100vh; */
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.banner div{
+    
+/* background: #5cbaff; */
+    
+/* min-height: 100vh; */
+    
+/* display: flex; */
+    
+padding-bottom: 50px;
+    
+width: 73%;
+    
+/* align-items: center; */
+    
+/* margin-bottom: 18px; */
+}
+.banner div img{
+    
+width: 100%;
+}
+.form{background: #0093FF;width: 63%;/* height: 100vh; */display: flex;justify-content: center;align-items: center;}
+.form h1{
+
+text-transform: capitalize;
+
+color: #fff;
+
+font-size: 27px;
+
+font-family: system-ui;
+
+font-weight: 500;
+}
+.form p{
+
+color: #fff;
+
+margin-top: 11px;
+
+text-transform: capitalize;
+}
+.form h5{
+
+color: #fff;
+
+text-transform: capitalize;
+
+margin-top: 23px;
+
+font-weight: 500;
+
+font-size: 16px;
+}
+.form form{
+
+/* display: flex; */
+
+margin-top: 10px;
+
+/* font-size: 15px; */
+} 
+.form form input{
+
+width: 100%;
+
+margin-bottom: 10px;
+
+padding: 6px;
+
+border: none;
+
+border-radius: 2px;
+} 
+.form ul{
+
+list-style: none;
+
+margin-top: 30px;
+
+display: flex;
+}
+.form ul li{
+
+color: #cbcbcb;
+}
+.form ul li a{
+
+text-decoration: none;
+
+margin-left: 10px;
+
+color: #fff;
+
+text-transform: capitalize;
+}
+.form_content{
+    
+width: 40%;
+}
+.form form input[type="submit"]{
+    
+width: auto;
+    
+color: #0093ff;
+    
+font-size: 14px;
+}
+
+
+
